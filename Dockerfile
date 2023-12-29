@@ -8,4 +8,4 @@ COPY --from=node /usr/local/bin /usr/local/bin
 RUN npm install npm@7.5.2
 USER root
 RUN apk update && apk upgrade && apk add sqlite
-USER node-red
+#USER node-red
