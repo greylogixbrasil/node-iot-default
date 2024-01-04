@@ -2,4 +2,22 @@ FROM nodered/node-red:2.2.2-12
 USER root
 RUN apk update && apk upgrade && apk add sqlite
 USER node-red
-RUN npm install node-red-contrib-modbus node-red-contrib-s7 node-red-node-sqlite sqlite-plugin-red https://github.com/greylogixbrasil/node-red-contrib-google-cloud.git
+RUN npm install node-red-contrib-advanced-ping \
+                node-red-contrib-clock-generator \
+                node-red-contrib-countdown \
+                node-red-contrib-counter \
+                node-red-contrib-fs-ops \
+                node-red-contrib-hourglass \
+                node-red-contrib-interval-length \
+                node-red-contrib-modbus \
+                node-red-contrib-opcua \
+                node-red-contrib-os \
+                node-red-contrib-queued-sqlite-fix \
+                node-red-contrib-s7 \
+                node-red-contrib-telegrambot \
+                node-red-contrib-ui-led \
+                node-red-dashboard \
+                node-red-node-email \
+                node-red-node-sqlite \
+                sqlite-plugin-red \
+                https://github.com/greylogixbrasil/node-red-contrib-google-cloud.git
