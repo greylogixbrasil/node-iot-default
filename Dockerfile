@@ -17,7 +17,7 @@ RUN npm install node-red-contrib-advanced-ping \
                 node-red-contrib-telegrambot \
                 node-red-contrib-ui-led \
                 node-red-dashboard \
-                node-red-node-email \
+                node-red-node-email@1 \
                 node-red-node-sqlite \
                 sqlite-plugin-red \
                 https://github.com/greylogixbrasil/node-red-contrib-google-cloud.git
