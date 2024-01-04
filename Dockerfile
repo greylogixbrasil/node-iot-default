@@ -10,7 +10,9 @@ RUN npm install node-red-contrib-advanced-ping \
                 node-red-contrib-hourglass \
                 node-red-contrib-interval-length \
                 node-red-contrib-modbus \
-                node-opcua@2.112.0 \
+                node-opcua@2.112 \
+                node-opcua-client-crawler@2.112 \
+                node-opcua-file-transfer@2.112 \
                 node-red-contrib-opcua@0.2.313 \
                 node-red-contrib-os \
                 node-red-contrib-queued-sqlite-fix \
