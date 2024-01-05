@@ -2,9 +2,9 @@ FROM nodered/node-red:2.2.2-12
 USER root
 RUN apk update && apk upgrade && apk add sqlite
 USER node-red
-RUN npm install node-opcua@2.93 \
-                node-opcua-client-crawler@2.93 \
-                node-opcua-file-transfer@2.93 \
+RUN npm install node-opcua@2.92 \
+                node-opcua-client-crawler@2.92 \
+                node-opcua-file-transfer@2.92 \
                 node-red-dashboard \
                 node-red-node-email@1 \
                 node-red-node-sqlite \
@@ -16,7 +16,7 @@ RUN npm install node-opcua@2.93 \
                 node-red-contrib-hourglass \
                 node-red-contrib-interval-length \
                 node-red-contrib-modbus \
-                node-red-contrib-opcua@0.2.301 \
+                node-red-contrib-opcua@0.2.300 \
                 node-red-contrib-os \
                 node-red-contrib-queued-sqlite-fix \
                 node-red-contrib-s7 \
