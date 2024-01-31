@@ -11,6 +11,7 @@ RUN npm install \
   --save-prefix=~ \
   --production \
   --engine-strict \
+    node-addon-api@7.0 \
     node-opcua@2.92 \
     node-opcua-client-crawler@2.92 \
     node-opcua-file-transfer@2.92 \
